@@ -11,7 +11,6 @@ public class Main {
         student.setName("wang");
         student.setAge(18);
         try {
-
             HashMap addMap = new HashMap();
             HashMap addValMap = new HashMap();
             addMap.put("des", Class.forName("java.lang.String"));
